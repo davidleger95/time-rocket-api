@@ -1,21 +1,20 @@
 import {
-  GraphQLSchema,
-  GraphQLObjectType,
-  GraphQLString
+  GraphQLObjectType as _Object,
+  GraphQLString as _String
 } from 'graphql';
 
-const UserType = new GraphQLObjectType({
+const UserType = new _Object({
   name: 'User',
   description: 'Generic User Model',
   fields: () => ({
-    id: { type: GraphQLString },
-    imageUrl: { type: GraphQLString },
-    firstName: { type: GraphQLString },
-    lastName: { type: GraphQLString },
-    email: { type: GraphQLString },
-    title: { type: GraphQLString },
-    status: { type: GraphQLString },
-    startDate: { type: GraphQLString }
+    id: { type: _String },
+    imageUrl: { type: _String },
+    firstName: { type: _String },
+    lastName: { type: _String },
+    email: { type: _String },
+    title: { type: _String },
+    status: { type: _String },
+    startDate: { type: _String }
   })
 });
 
