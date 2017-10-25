@@ -1,0 +1,61 @@
+[
+  {
+    "_id": "[id]",
+    "interval": {
+      "startDate": "2017-08-21",
+      "endDate": "2017-08-23"
+    },
+    "submitDate": "2017-08-23",
+    "status": "PENDING_REVIEW",
+    "approvalDate": null,
+    "entriesByItem": [
+      {
+        "categoryIds": [
+          "[#survey]",
+          "[#q3-inquisium-redesign]"
+          "[#dev-feature]",
+          "[#standard]"
+        ],
+        "date": "2017-08-23",
+        "amount": 3.5,
+        "notes": "Lorem Ipsum"
+      }
+    ],
+    "entriesByCategory": [
+      {
+        "_id": "[#survey]",
+        "displayName": "Survey",
+        "items": [
+          {
+            "_id": "[#q3-inquisium-redesign]",
+            "displayName": "Q3 - Inquisium Redesign",
+            "items": [
+              {
+                "_id": "[#dev-feature]",
+                "displayName": "DEV - Feature Development",
+                "items": [
+                  {
+                    "_id": "[#standard]",
+                    "displayName": "Standard",
+                    "entries": [
+                      {
+                        "date": "2017-08-23",
+                        "amount": 3.5,
+                        "notes": "Lorem Ipsum"
+                      },
+                      {
+                        "date": "2017-08-23",
+                        "amount": 3.5,
+                        "notes": "Lorem Ipsum"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
