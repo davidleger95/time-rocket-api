@@ -5,7 +5,7 @@ import {
 } from 'graphql';
 
 const UserType = new GraphQLObjectType({
-  name: 'User',
+  name: 'timesheet',
   description: 'Generic User Model',
   fields: () => ({
     _id: { type: GraphQLString },

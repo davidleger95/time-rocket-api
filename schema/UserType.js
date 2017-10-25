@@ -1,10 +1,9 @@
 import {
-  GraphQLSchema,
-  GraphQLObjectType,
-  GraphQLString
+  GraphQLObjectType as _Object,
+  GraphQLString as _String
 } from 'graphql';
 
-const UserType = new GraphQLObjectType({
+const UserType = new _Object({
   name: 'User',
   description: 'Generic User Model',
   fields: () => ({
